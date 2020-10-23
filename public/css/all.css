@@ -1,0 +1,200 @@
+	.login-form {
+		width: 385px;
+		margin: 30px auto;
+	}
+    .login-form form {        
+    	margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+    .form-control, .login-btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .input-group-addon .fa {
+        font-size: 18px;
+    }
+    .login-btn {
+        font-size: 15px;
+        font-weight: bold;
+    }
+	.social-btn .btn {
+		border: none;
+        margin: 10px 3px 0;
+        opacity: 1;
+	}
+    .social-btn .btn:hover {
+        opacity: 0.9;
+    }
+	.social-btn .btn-primary {
+        background: #507cc0;
+    }
+	.social-btn .btn-info {
+		background: #64ccf1;
+	}
+	.social-btn .btn-danger {
+		background: #df4930;
+	}
+    .or-seperator {
+        margin-top: 20px;
+        text-align: center;
+        border-top: 1px solid #ccc;
+    }
+    .or-seperator i {
+        padding: 0 10px;
+        background: #f7f7f7;
+        position: relative;
+        top: -11px;
+        z-index: 1;
+    }
+#formRegister{
+    width: 50%;
+    margin:auto;
+    padding:50px 0 50px 0;
+}
+.vertical-menu {
+    width: 215px;
+    height: 344px;
+    position: absolute;
+    top: 175px;
+    z-index: 1;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.25);
+}
+
+.vertical-menu li, .vertical-menu-hover a {
+    background-color: white; /* Grey background color */
+    color: #999;
+    font-size: 14px;
+    display: block; /* Make the links appear below each other */
+    text-decoration: none; /* Remove underline from links */
+    padding-left: 8px;
+    height: 27px;
+    line-height: 27px;
+}
+
+.vertical-menu a:hover {
+  background-color: #eceff1; /* Dark grey background on mouse-over */
+}
+.img-menu{
+    width: 979px !important;
+    height: 344px !important;
+}
+
+.vertical-menu-hover{
+    display: none;
+    width: 215px;
+    height: 344px;
+    position: absolute;
+    top: 175px;
+    z-index: 1;
+    left: 315px;
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.25);
+}
+.vertical-menu li:hover .vertical-menu-hover {
+    display: block;
+}
+.product-body h3{
+
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+.showMore{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top:15px;
+    display: block;
+    margin:auto;
+    border-radius: 5px;
+    border:1px solid #D10024;
+    margin-top: 20px;
+}
+.showMore:hover{
+    color:white;
+    background-color: #D10024;
+    transition: 0.2s background-color;
+}
+.color-tab{
+    background-color: white;
+}
+.top-brand{
+    width: 220px;
+    height: 103px;
+    background-color: red;
+    float: left;
+    margin: 1px;
+}
+.top-brand:first-child{
+    height: 208px;
+    background-color: #e5f2f7;  
+    display: inline-block;
+}
+.top-brand img{
+    width: 90px;
+    height: 80px;
+    margin: 12px 10px 0 10px;
+    float: left;
+}
+.top-brand:nth-child(2), .top-brand:nth-child(6){
+    background-color: #f7e6d2 ;
+}
+.top-brand:nth-child(3), .top-brand:nth-child(7){
+    background-color: #f8e0df ;
+}
+.top-brand:nth-child(4), .top-brand:nth-child(8){
+    background-color: #e3e6f4 ;
+}
+.top-brand:nth-child(5), .top-brand:nth-child(9){
+    background-color: #f0e8e0 ;
+}
+
+.top-brand p {
+    color: #212121;
+    font-size: 14px;
+    margin-top:13px;
+    margin-bottom: 0;
+}
+.top-brand p:last-child {
+    margin:0;
+    color: #9e9e9e;
+    font-size: 12px;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 36px;
+    overflow: hidden;
+}
+.top-brand:first-child img{
+    width: 198px;
+    height: 138px;
+    margin: 12px;
+}
+.top-brand:first-child p{
+    color: #212121;
+    font-size: 14px;
+    text-align: center !important;
+}
+.top-brand:first-child p:last-child{
+    color: #9e9e9e;
+    font-size: 12px;
+    display: -webkit-box;
+    line-height: 18px;
+    text-align: center;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 36px;
+    margin:0;
+    overflow: hidden;
+
+}
